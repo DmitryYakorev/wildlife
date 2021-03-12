@@ -1,3 +1,69 @@
 *{
-    margin: 0;
+   margin: 0;
+   font-family: "Open Sans";
+  
 }
+body{
+   display: block;
+   background-color: #E5E5E5;
+}
+ .container {
+    display: block;
+    justify-content: center;
+    height: 779px;
+    max-width: 1440px;
+     background-color: red;
+    background: url(./assets/Hero.jpg) no-repeat center;
+    background-size: cover;
+    
+
+ }
+    .logo{
+       display: flex;
+       width: 200px;
+       justify-content: space-between;
+    }
+    h1{
+      color: cornsilk;
+    }
+      nav{
+         display: flex;
+         justify-content: space-between;
+      }
+      ul{
+         display: flex;
+         width:400px;
+         height: 40px;
+         justify-content: space-between;
+      }
+      header{
+         display: flex;
+         width: 1000px;
+         height: 80px;
+         justify-content: space-between;
+      }
+      a{
+         display: flex;
+         text-decoration: none;
+         justify-content: space-between;
+      }
+      li{
+         display: flex;
+         justify-content: space-between;
+      }
+      .Survival{
+         width: 1400px;
+         height: 100px;
+      }
+      .Latest{
+         background-color: #666666;
+         display: block;
+         width: 1440px;
+         height: 400px;
+      }
+      .karusel{
+         display: flex;
+         width: 1440px;
+         height: 500px;
+         justify-content: space-between;
+      }
