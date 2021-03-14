@@ -15,6 +15,7 @@ body{
      background-color: red;
     background: url(./assets/Hero.jpg) no-repeat center;
     background-size: cover;
+    margin: 0 auto;
     
 
  }
@@ -64,6 +65,28 @@ body{
       .karusel{
          display: flex;
          width: 1440px;
-         height: 500px;
+         height: 250px;
          justify-content: space-between;
       }
+      svg {
+         fill: black;
+      } 
+      .deer{
+         height: 200px;
+      }
+   footer{
+      display: flex;
+      justify-content: center;
+      height: 359px;
+      max-width: 1440px;
+       background-color: red;
+      background: url(./assets/Footer.jpg) no-repeat center;
+      background-size: cover;
+      margin: 0 auto;
+   }
+   .net{
+      display: flex;
+      width: 1000px;
+      height: 80px;
+      justify-content: space-between;  
+   }
