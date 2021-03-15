@@ -10,7 +10,7 @@ body{
  .container {
     display: block; 
     justify-content: center;
-    height: 779px; 
+    height: 779px;  
     
     max-width: 1440px;
     background-color: #02160b;
