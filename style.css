@@ -47,6 +47,7 @@ body{
          display: flex;
          text-decoration: none;
          justify-content: space-between;
+         color: white;
       }
       li{
          display: flex;
@@ -57,10 +58,11 @@ body{
          height: 100px;
       }
       .Latest{
-         background-color: #666666;
+         background-color: #CCCCCC;
          display: block;
-         width: 1440px;
-         height: 400px;
+         max-width: 1440px;
+         height: 1368px;
+         margin:0 auto;
       }
       .karusel{
          display: flex;
@@ -74,8 +76,17 @@ body{
       .deer{
          height: 200px;
       }
+      .sq{
+         height: 200px;
+      }
+      .bird{
+         justify-content: center;
+         align-items: center;
+         height: 200px;
+      }
    footer{
       display: flex;
+      align-items: center;
       justify-content: center;
       height: 359px;
       max-width: 1440px;
@@ -89,4 +100,32 @@ body{
       width: 1000px;
       height: 80px;
       justify-content: space-between;  
+   }
+   figcaption{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -60px;
+   }
+   p{
+      width: 100px;
+      justify-content: center;
+      align-items: center;
+   }
+   .test1{
+      
+      margin-right: 390px;
+      margin-top: 80px;
+      margin-left: 10px;
+   }
+   .temp2{
+      margin-right: 0px;
+      margin-top: 80px;
+      margin-left: 30px;
+
+   }
+   .btn{
+      fill: orange;
+      background-color: orange;
    }
