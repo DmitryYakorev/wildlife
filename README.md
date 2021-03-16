@@ -1,2 +1,1 @@
-# dmitryyakorev-JSFE2021Q1
-Private repository for @dmitryyakorev
+https://dmitryyakorev.github.io/wildlife
