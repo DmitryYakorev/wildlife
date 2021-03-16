@@ -9,7 +9,7 @@ body{
 }
  .container {
     display: block; 
-    justify-content: center; 
+    justify-content: center;  
     height: 779px;  
     
     max-width: 1440px;
